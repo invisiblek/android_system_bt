@@ -1,10 +1,4 @@
 /******************************************************************************
- *  Copyright (c) 2016, The Linux Foundation. All rights reserved.
- *
- *  Not a contribution.
- ******************************************************************************/
-
-/******************************************************************************
  *
  *  Copyright (c) 2014 The Android Open Source Project
  *  Copyright (C) 1999-2012 Broadcom Corporation
@@ -1174,7 +1168,7 @@
 
 /* Maximum size in bytes of the codec capabilities information element. */
 #ifndef AVDT_CODEC_SIZE
-#define AVDT_CODEC_SIZE             20
+#define AVDT_CODEC_SIZE             10
 #endif
 
 /* Maximum size in bytes of the content protection information element. */

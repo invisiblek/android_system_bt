@@ -1,10 +1,4 @@
 /******************************************************************************
- *  Copyright (c) 2016, The Linux Foundation. All rights reserved.
- *
- *  Not a contribution.
- ******************************************************************************/
-
-/******************************************************************************
  *
  *  Copyright (C) 2009-2012 Broadcom Corporation
  *
@@ -49,7 +43,7 @@
  *****************************************************************************/
 
 /* Codec type */
-#define BTIF_AV_CODEC_NONE       0xF1
+#define BTIF_AV_CODEC_NONE       0xFF
 #define BTIF_AV_CODEC_SBC        A2D_MEDIA_CT_SBC        /* SBC media codec type */
 
 #define BTIF_AV_CODEC_PCM        0x5                     /* Raw PCM */
